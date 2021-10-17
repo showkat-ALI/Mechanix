@@ -1,0 +1,20 @@
+.all-services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    background-color: #3B0944;
+    align-items: center;
+    grid-gap: 20px;
+}
+@media only screen and (max-width:688px){
+    .all-services{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+@media only screen and (min-width:689px) and (max-width:800px){
+    .all-services{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
